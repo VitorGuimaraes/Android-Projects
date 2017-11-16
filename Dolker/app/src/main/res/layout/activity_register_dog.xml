@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:orientation="vertical"
+    tools:context="android.example.com.dolker.LoginActivity">
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="120dp"
+        android:background="#FFFFFF"
+        android:hint=" Name"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/breedField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:hint=" Breed"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/genderField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:hint=" Gender"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/ageField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:hint=" Age"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/weightField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:hint=" Weight"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginTop="60dp"
+        android:background="#FF6F00"
+        android:textSize="18sp"
+        android:text="Register" />
+
+</LinearLayout>

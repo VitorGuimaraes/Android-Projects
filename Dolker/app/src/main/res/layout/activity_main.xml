@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context="android.example.com.dolker.LoginActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/registerDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        android:hint="Register Dog"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dogsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:hint="Dogs List"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/rides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:hint="Rides"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/callDolker"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginTop="84dp"
+        android:background="#FF6F00"
+        android:text="Call Dolker"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/options"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/config" />
+
+</LinearLayout>

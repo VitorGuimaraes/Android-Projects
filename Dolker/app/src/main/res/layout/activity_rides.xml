@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF9800"
+    android:minHeight="130dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/dog_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dolker_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dog_name_view"
+            android:text="Dolker: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dolker_name_view"
+            android:text="Date: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hour_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_view"
+            android:text="Hour: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hour_view"
+            android:text="Time: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time_view"
+            android:text="Price: "
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dog_name_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dog_name_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="Luna " />
+
+        <TextView
+            android:id="@+id/dolker_name_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dog_name_field"
+            android:layout_toRightOf="@id/dolker_name_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="Allex Silveira " />
+
+        <TextView
+            android:id="@+id/date_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dolker_name_field"
+            android:layout_toRightOf="@id/date_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="10/07/17" />
+
+        <TextView
+            android:id="@+id/hour_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_field"
+            android:layout_toRightOf="@id/hour_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="15:00" />
+
+        <TextView
+            android:id="@+id/time_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hour_field"
+            android:layout_toRightOf="@id/time_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="15min" />
+
+        <TextView
+            android:id="@+id/price_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_field"
+            android:layout_toRightOf="@id/price_view"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="R$5,00" />
+
+        <ImageView
+            android:id="@+id/dog_profileImage"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/dolker_profileImage"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/dog_profileImage" />
+
+    </RelativeLayout>
+</LinearLayout>
